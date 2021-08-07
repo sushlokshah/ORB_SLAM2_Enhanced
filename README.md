@@ -109,6 +109,8 @@ cd ORB_SLAM2
 chmod +x build.sh
 ./build.sh
 ```
+replace ```find_package(OpenCV 3.0 QUIET)``` with installed version of opencv and follow same for Eigen3 before building.
+
 
 This will create **libORB_SLAM2.so**  at *lib* folder and the executables **mono_tum**, **mono_kitti**, **rgbd_tum**, **stereo_kitti**, **mono_euroc** and **stereo_euroc** in *Examples* folder.
 
