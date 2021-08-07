@@ -60,6 +60,7 @@ void MapDrawer::DrawMapPoints()
         if(vpMPs[i]->isBad() || spRefMPs.count(vpMPs[i]))
             continue;
         cv::Mat pos = vpMPs[i]->GetWorldPos();
+        cout << pos.at<float>(0)<<  << pos.at<float>(1) <<  << pos.at<float>(2)<< std::endl;
         glVertex3f(pos.at<float>(0),pos.at<float>(1),pos.at<float>(2));
     }
     glEnd();
