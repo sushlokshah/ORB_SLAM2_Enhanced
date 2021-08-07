@@ -298,4 +298,61 @@ This feature is tested with boost 1.64 and it works fine mostly. There is still 
 
 #### 12. map data: https://drive.google.com/drive/u/1/folders/1_VPgpmVsbIUUC0o_SqKU8JU_vMlvCosR
 
+Remove following lines from txt file
+```
 
+ORB-SLAM2 Copyright (C) 2014-2016 Raul Mur-Artal, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: Monocular
+
+Loading ORB Vocabulary. This could take a while...
+Vocabulary loaded!
+
+Loading Mapfile: map.bin ...done
+Map Reconstructingsushlok
+ ...done
+
+Camera Parameters: 
+- fx: 707.091
+- fy: 707.091
+- cx: 601.887
+- cy: 183.11
+- k1: 0
+- k2: 0
+- p1: 0
+- p2: 0
+- fps: 10
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 2000
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 20
+- Minimum Fast Threshold: 7
+
+-------
+Start processing sequence ...
+Images in the sequence: 1591
+
+and 
+
+14.7883  -0.467511   Local Mapping STOP20.2844
+
+
+and
+
+Saving Mapfile: map.bin ...done
+-------
+
+median tracking time: 0.0299997
+mean tracking time: 0.0310354
+
+Saving keyframe trajectory to KeyFrameTrajectory.txt ...
+
+trajectory saved!
+
+```
