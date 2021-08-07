@@ -298,7 +298,10 @@ I use boost_serialization library to serialize `Map`, `MapPoint`, `KeyFrame`,`Ke
 
 This feature is tested with boost 1.64 and it works fine mostly. There is still some occasional segmentfault to dig in.
 
-#### 12. map data: https://drive.google.com/drive/u/1/folders/1_VPgpmVsbIUUC0o_SqKU8JU_vMlvCosR
+
+#### 12. MAP DATA: [KITTI-9-pose.txt](https://drive.google.com/drive/u/1/folders/1_VPgpmVsbIUUC0o_SqKU8JU_vMlvCosR)
+
+
 
 Remove following lines from txt file
 ```
